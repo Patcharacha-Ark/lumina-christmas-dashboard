@@ -1,0 +1,401 @@
+﻿member_id,name,department,status,semester
+M001,An Rattanakul,Secretariat,Active,2025/1
+M002,Beam Suwannarat,Finance,Active,2025/1
+M003,Benz Limsakul,Operations,Active,2025/1
+M004,Bua Boonmee,Member Relations,Active,2025/1
+M005,Chan Sutthipong,Creative,Active,2025/1
+M006,Cream Nopparat,Academic,Active,2025/1
+M007,Earth Wattanapong,Secretariat,Active,2025/1
+M008,Fern Chanthara,Finance,Active,2025/1
+M009,Film Thammasiri,Operations,Active,2025/1
+M010,Fah Kanjanaporn,Member Relations,Active,2025/1
+M011,Gift Srisawat,Creative,Active,2025/1
+M012,Ice Wongchai,Academic,Active,2025/1
+M013,Ing Saengkaew,Secretariat,Active,2025/1
+M014,Jane Kittisak,Finance,Active,2025/1
+M015,June Pongsawat,Operations,Active,2025/1
+M016,Kao Thanaset,Member Relations,Active,2025/1
+M017,Khim Pattanakul,Creative,Active,2025/1
+M018,May Narin,Academic,Active,2025/1
+M019,Mew Charoen,Secretariat,Inactive,2025/1
+M020,Mint Sirikul,Finance,Active,2025/1
+M021,Mook Rattanakul,Operations,Active,2025/1
+M022,Nam Suwannarat,Member Relations,Active,2025/1
+M023,Nan Limsakul,Creative,Active,2025/1
+M024,Nene Boonmee,Academic,Active,2025/1
+M025,New Sutthipong,Secretariat,Active,2025/1
+M026,Nice Nopparat,Finance,Active,2025/1
+M027,Ning Wattanapong,Operations,Active,2025/1
+M028,Noon Chanthara,Member Relations,Active,2025/1
+M029,Nut Thammasiri,Creative,Active,2025/1
+M030,Pang Kanjanaporn,Academic,Active,2025/1
+M031,Pear Srisawat,Secretariat,Active,2025/1
+M032,Pim Wongchai,Finance,Active,2025/1
+M033,Pin Saengkaew,Operations,Active,2025/1
+M034,Ploy Kittisak,Member Relations,Active,2025/1
+M035,Prae Pongsawat,Creative,Active,2025/1
+M036,Prim Thanaset,Academic,Active,2025/1
+M037,Pun Pattanakul,Secretariat,Active,2025/1
+M038,Rain Narin,Finance,Active,2025/1
+M039,Sai Charoen,Operations,Active,2025/1
+M040,Smile Sirikul,Member Relations,Active,2025/1
+M041,Som Rattanakul,Creative,Active,2025/1
+M042,Tarn Suwannarat,Academic,Active,2025/1
+M043,Tea Limsakul,Secretariat,Active,2025/1
+M044,Ton Boonmee,Finance,Active,2025/1
+M045,View Sutthipong,Operations,Active,2025/1
+M046,Wan Nopparat,Member Relations,Active,2025/1
+M047,Win Wattanapong,Creative,Active,2025/1
+M048,Ying Chanthara,Academic,Active,2025/1
+M049,Yok Thammasiri,Secretariat,Active,2025/1
+M050,Zee Kanjanaporn,Finance,Active,2025/1
+M051,An Sirikul,Operations,Active,2025/1
+M052,Beam Rattanakul,Member Relations,Active,2025/1
+M053,Benz Suwannarat,Creative,Active,2025/1
+M054,Bua Limsakul,Academic,Active,2025/1
+M055,Chan Boonmee,Secretariat,Inactive,2025/1
+M056,Cream Sutthipong,Finance,Active,2025/1
+M057,Earth Nopparat,Operations,Active,2025/1
+M058,Fern Wattanapong,Member Relations,Active,2025/1
+M059,Film Chanthara,Creative,Active,2025/1
+M060,Fah Thammasiri,Academic,Active,2025/1
+M061,Gift Kanjanaporn,Secretariat,Active,2025/1
+M062,Ice Srisawat,Finance,Active,2025/1
+M063,Ing Wongchai,Operations,Active,2025/1
+M064,Jane Saengkaew,Member Relations,Active,2025/1
+M065,June Kittisak,Creative,Active,2025/1
+M066,Kao Pongsawat,Academic,Active,2025/1
+M067,Khim Thanaset,Secretariat,Active,2025/1
+M068,May Pattanakul,Finance,Active,2025/1
+M069,Mew Narin,Operations,Active,2025/1
+M070,Mint Charoen,Member Relations,Active,2025/1
+M071,Mook Sirikul,Creative,Active,2025/1
+M072,Nam Rattanakul,Academic,Active,2025/1
+M073,Nan Suwannarat,Secretariat,Active,2025/1
+M074,Nene Limsakul,Finance,Active,2025/1
+M075,New Boonmee,Operations,Active,2025/1
+M076,Nice Sutthipong,Member Relations,Active,2025/1
+M077,Ning Nopparat,Creative,Active,2025/1
+M078,Noon Wattanapong,Academic,Active,2025/1
+M079,Nut Chanthara,Secretariat,Active,2025/1
+M080,Pang Thammasiri,Finance,Active,2025/1
+M081,Pear Kanjanaporn,Operations,Active,2025/1
+M082,Pim Srisawat,Member Relations,Inactive,2025/1
+M083,Pin Wongchai,Creative,Active,2025/1
+M084,Ploy Saengkaew,Academic,Inactive,2025/1
+M085,Prae Kittisak,Secretariat,Inactive,2025/1
+M086,Prim Pongsawat,Finance,Active,2025/1
+M087,Pun Thanaset,Operations,Active,2025/1
+M088,Rain Pattanakul,Member Relations,Active,2025/1
+M089,Sai Narin,Creative,Active,2025/1
+M090,Smile Charoen,Academic,Active,2025/1
+M091,Som Sirikul,Secretariat,Active,2025/1
+M092,Tarn Rattanakul,Finance,Active,2025/1
+M093,Tea Suwannarat,Operations,Active,2025/1
+M094,Ton Limsakul,Member Relations,Active,2025/1
+M095,View Boonmee,Creative,Active,2025/1
+M096,Wan Sutthipong,Academic,Active,2025/1
+M097,Win Nopparat,Secretariat,Active,2025/1
+M098,Ying Wattanapong,Finance,Active,2025/1
+M099,Yok Chanthara,Operations,Active,2025/1
+M100,Zee Thammasiri,Member Relations,Active,2025/1
+M101,An Charoen,Creative,Active,2025/1
+M102,Beam Sirikul,Academic,Active,2025/1
+M103,Benz Rattanakul,Secretariat,Active,2025/1
+M104,Bua Suwannarat,Finance,Inactive,2025/1
+M105,Chan Limsakul,Operations,Active,2025/1
+M106,Cream Boonmee,Member Relations,Active,2025/1
+M107,Earth Sutthipong,Creative,Active,2025/1
+M108,Fern Nopparat,Academic,Inactive,2025/1
+M109,Film Wattanapong,Secretariat,Active,2025/1
+M110,Fah Chanthara,Finance,Active,2025/1
+M111,Gift Thammasiri,Operations,Active,2025/1
+M112,Ice Kanjanaporn,Member Relations,Active,2025/1
+M113,Ing Srisawat,Creative,Active,2025/1
+M114,Jane Wongchai,Academic,Active,2025/1
+M115,June Saengkaew,Secretariat,Active,2025/1
+M116,Kao Kittisak,Finance,Active,2025/1
+M001,An Rattanakul,Secretariat,Active,2025/2
+M002,Beam Suwannarat,Finance,Active,2025/2
+M003,Benz Limsakul,Operations,Active,2025/2
+M004,Bua Boonmee,Member Relations,Active,2025/2
+M005,Chan Sutthipong,Creative,Active,2025/2
+M006,Cream Nopparat,Academic,Active,2025/2
+M007,Earth Wattanapong,Secretariat,Active,2025/2
+M008,Fern Chanthara,Finance,Active,2025/2
+M009,Film Thammasiri,Operations,Active,2025/2
+M010,Fah Kanjanaporn,Member Relations,Active,2025/2
+M011,Gift Srisawat,Creative,Active,2025/2
+M012,Ice Wongchai,Academic,Active,2025/2
+M013,Ing Saengkaew,Secretariat,Active,2025/2
+M014,Jane Kittisak,Finance,Active,2025/2
+M015,June Pongsawat,Operations,Active,2025/2
+M016,Kao Thanaset,Member Relations,Inactive,2025/2
+M017,Khim Pattanakul,Creative,Active,2025/2
+M018,May Narin,Academic,Active,2025/2
+M019,Mew Charoen,Secretariat,Active,2025/2
+M020,Mint Sirikul,Finance,Active,2025/2
+M021,Mook Rattanakul,Operations,Active,2025/2
+M022,Nam Suwannarat,Member Relations,Active,2025/2
+M023,Nan Limsakul,Creative,Active,2025/2
+M024,Nene Boonmee,Academic,Active,2025/2
+M025,New Sutthipong,Secretariat,Active,2025/2
+M026,Nice Nopparat,Finance,Active,2025/2
+M027,Ning Wattanapong,Operations,Active,2025/2
+M028,Noon Chanthara,Member Relations,Active,2025/2
+M029,Nut Thammasiri,Creative,Active,2025/2
+M030,Pang Kanjanaporn,Academic,Active,2025/2
+M031,Pear Srisawat,Secretariat,Active,2025/2
+M032,Pim Wongchai,Finance,Active,2025/2
+M033,Pin Saengkaew,Operations,Active,2025/2
+M034,Ploy Kittisak,Member Relations,Active,2025/2
+M035,Prae Pongsawat,Creative,Active,2025/2
+M036,Prim Thanaset,Academic,Active,2025/2
+M037,Pun Pattanakul,Secretariat,Active,2025/2
+M038,Rain Narin,Finance,Active,2025/2
+M039,Sai Charoen,Operations,Inactive,2025/2
+M040,Smile Sirikul,Member Relations,Active,2025/2
+M041,Som Rattanakul,Creative,Inactive,2025/2
+M042,Tarn Suwannarat,Academic,Active,2025/2
+M043,Tea Limsakul,Secretariat,Active,2025/2
+M044,Ton Boonmee,Finance,Inactive,2025/2
+M045,View Sutthipong,Operations,Active,2025/2
+M046,Wan Nopparat,Member Relations,Active,2025/2
+M047,Win Wattanapong,Creative,Active,2025/2
+M048,Ying Chanthara,Academic,Active,2025/2
+M049,Yok Thammasiri,Secretariat,Active,2025/2
+M050,Zee Kanjanaporn,Finance,Active,2025/2
+M051,An Sirikul,Operations,Active,2025/2
+M052,Beam Rattanakul,Member Relations,Active,2025/2
+M053,Benz Suwannarat,Creative,Active,2025/2
+M054,Bua Limsakul,Academic,Active,2025/2
+M055,Chan Boonmee,Secretariat,Active,2025/2
+M056,Cream Sutthipong,Finance,Inactive,2025/2
+M057,Earth Nopparat,Operations,Active,2025/2
+M058,Fern Wattanapong,Member Relations,Active,2025/2
+M059,Film Chanthara,Creative,Inactive,2025/2
+M060,Fah Thammasiri,Academic,Active,2025/2
+M061,Gift Kanjanaporn,Secretariat,Active,2025/2
+M062,Ice Srisawat,Finance,Active,2025/2
+M063,Ing Wongchai,Operations,Active,2025/2
+M064,Jane Saengkaew,Member Relations,Active,2025/2
+M065,June Kittisak,Creative,Active,2025/2
+M066,Kao Pongsawat,Academic,Active,2025/2
+M067,Khim Thanaset,Secretariat,Active,2025/2
+M068,May Pattanakul,Finance,Active,2025/2
+M069,Mew Narin,Operations,Active,2025/2
+M070,Mint Charoen,Member Relations,Active,2025/2
+M071,Mook Sirikul,Creative,Active,2025/2
+M072,Nam Rattanakul,Academic,Active,2025/2
+M073,Nan Suwannarat,Secretariat,Active,2025/2
+M074,Nene Limsakul,Finance,Inactive,2025/2
+M075,New Boonmee,Operations,Active,2025/2
+M076,Nice Sutthipong,Member Relations,Active,2025/2
+M077,Ning Nopparat,Creative,Active,2025/2
+M078,Noon Wattanapong,Academic,Active,2025/2
+M079,Nut Chanthara,Secretariat,Active,2025/2
+M080,Pang Thammasiri,Finance,Active,2025/2
+M081,Pear Kanjanaporn,Operations,Active,2025/2
+M082,Pim Srisawat,Member Relations,Active,2025/2
+M083,Pin Wongchai,Creative,Active,2025/2
+M084,Ploy Saengkaew,Academic,Active,2025/2
+M085,Prae Kittisak,Secretariat,Active,2025/2
+M086,Prim Pongsawat,Finance,Active,2025/2
+M087,Pun Thanaset,Operations,Active,2025/2
+M088,Rain Pattanakul,Member Relations,Active,2025/2
+M089,Sai Narin,Creative,Active,2025/2
+M090,Smile Charoen,Academic,Active,2025/2
+M091,Som Sirikul,Secretariat,Active,2025/2
+M092,Tarn Rattanakul,Finance,Active,2025/2
+M093,Tea Suwannarat,Operations,Active,2025/2
+M094,Ton Limsakul,Member Relations,Active,2025/2
+M095,View Boonmee,Creative,Active,2025/2
+M096,Wan Sutthipong,Academic,Active,2025/2
+M097,Win Nopparat,Secretariat,Active,2025/2
+M098,Ying Wattanapong,Finance,Active,2025/2
+M099,Yok Chanthara,Operations,Inactive,2025/2
+M100,Zee Thammasiri,Member Relations,Active,2025/2
+M101,An Charoen,Creative,Active,2025/2
+M102,Beam Sirikul,Academic,Active,2025/2
+M103,Benz Rattanakul,Secretariat,Active,2025/2
+M104,Bua Suwannarat,Finance,Active,2025/2
+M105,Chan Limsakul,Operations,Active,2025/2
+M106,Cream Boonmee,Member Relations,Active,2025/2
+M107,Earth Sutthipong,Creative,Active,2025/2
+M108,Fern Nopparat,Academic,Active,2025/2
+M109,Film Wattanapong,Secretariat,Active,2025/2
+M110,Fah Chanthara,Finance,Active,2025/2
+M111,Gift Thammasiri,Operations,Active,2025/2
+M112,Ice Kanjanaporn,Member Relations,Active,2025/2
+M113,Ing Srisawat,Creative,Active,2025/2
+M114,Jane Wongchai,Academic,Active,2025/2
+M115,June Saengkaew,Secretariat,Active,2025/2
+M116,Kao Kittisak,Finance,Active,2025/2
+M117,Khim Pongsawat,Operations,Active,2025/2
+M118,May Thanaset,Member Relations,Active,2025/2
+M119,Mew Pattanakul,Creative,Active,2025/2
+M120,Mint Narin,Academic,Active,2025/2
+M121,Mook Charoen,Secretariat,Active,2025/2
+M122,Nam Sirikul,Finance,Active,2025/2
+M123,Nan Rattanakul,Operations,Active,2025/2
+M124,Nene Suwannarat,Member Relations,Active,2025/2
+M125,New Limsakul,Creative,Active,2025/2
+M126,Nice Boonmee,Academic,Active,2025/2
+M127,Ning Sutthipong,Secretariat,Active,2025/2
+M128,Noon Nopparat,Finance,Active,2025/2
+M129,Nut Wattanapong,Operations,Active,2025/2
+M130,Pang Chanthara,Member Relations,Active,2025/2
+M131,Pear Thammasiri,Creative,Active,2025/2
+M132,Pim Kanjanaporn,Academic,Active,2025/2
+M133,Pin Srisawat,Secretariat,Active,2025/2
+M134,Ploy Wongchai,Finance,Active,2025/2
+M001,An Rattanakul,Secretariat,Active,2026/1
+M002,Beam Suwannarat,Finance,Active,2026/1
+M003,Benz Limsakul,Operations,Active,2026/1
+M004,Bua Boonmee,Member Relations,Active,2026/1
+M005,Chan Sutthipong,Creative,Active,2026/1
+M006,Cream Nopparat,Academic,Active,2026/1
+M007,Earth Wattanapong,Secretariat,Active,2026/1
+M008,Fern Chanthara,Finance,Active,2026/1
+M009,Film Thammasiri,Operations,Active,2026/1
+M010,Fah Kanjanaporn,Member Relations,Active,2026/1
+M011,Gift Srisawat,Creative,Active,2026/1
+M012,Ice Wongchai,Academic,Active,2026/1
+M013,Ing Saengkaew,Secretariat,Active,2026/1
+M014,Jane Kittisak,Finance,Active,2026/1
+M015,June Pongsawat,Operations,Active,2026/1
+M016,Kao Thanaset,Member Relations,Active,2026/1
+M017,Khim Pattanakul,Creative,Active,2026/1
+M018,May Narin,Academic,Active,2026/1
+M019,Mew Charoen,Secretariat,Active,2026/1
+M020,Mint Sirikul,Finance,Active,2026/1
+M021,Mook Rattanakul,Operations,Active,2026/1
+M022,Nam Suwannarat,Member Relations,Active,2026/1
+M023,Nan Limsakul,Creative,Active,2026/1
+M024,Nene Boonmee,Academic,Active,2026/1
+M025,New Sutthipong,Secretariat,Active,2026/1
+M026,Nice Nopparat,Finance,Active,2026/1
+M027,Ning Wattanapong,Operations,Active,2026/1
+M028,Noon Chanthara,Member Relations,Active,2026/1
+M029,Nut Thammasiri,Creative,Active,2026/1
+M030,Pang Kanjanaporn,Academic,Active,2026/1
+M031,Pear Srisawat,Secretariat,Active,2026/1
+M032,Pim Wongchai,Finance,Active,2026/1
+M033,Pin Saengkaew,Operations,Active,2026/1
+M034,Ploy Kittisak,Member Relations,Active,2026/1
+M035,Prae Pongsawat,Creative,Active,2026/1
+M036,Prim Thanaset,Academic,Active,2026/1
+M037,Pun Pattanakul,Secretariat,Active,2026/1
+M038,Rain Narin,Finance,Active,2026/1
+M039,Sai Charoen,Operations,Active,2026/1
+M040,Smile Sirikul,Member Relations,Active,2026/1
+M041,Som Rattanakul,Creative,Active,2026/1
+M042,Tarn Suwannarat,Academic,Active,2026/1
+M043,Tea Limsakul,Secretariat,Active,2026/1
+M044,Ton Boonmee,Finance,Active,2026/1
+M045,View Sutthipong,Operations,Active,2026/1
+M046,Wan Nopparat,Member Relations,Active,2026/1
+M047,Win Wattanapong,Creative,Active,2026/1
+M048,Ying Chanthara,Academic,Active,2026/1
+M049,Yok Thammasiri,Secretariat,Active,2026/1
+M050,Zee Kanjanaporn,Finance,Active,2026/1
+M051,An Sirikul,Operations,Active,2026/1
+M052,Beam Rattanakul,Member Relations,Active,2026/1
+M053,Benz Suwannarat,Creative,Active,2026/1
+M054,Bua Limsakul,Academic,Active,2026/1
+M055,Chan Boonmee,Secretariat,Active,2026/1
+M056,Cream Sutthipong,Finance,Active,2026/1
+M057,Earth Nopparat,Operations,Active,2026/1
+M058,Fern Wattanapong,Member Relations,Active,2026/1
+M059,Film Chanthara,Creative,Active,2026/1
+M060,Fah Thammasiri,Academic,Active,2026/1
+M061,Gift Kanjanaporn,Secretariat,Active,2026/1
+M062,Ice Srisawat,Finance,Active,2026/1
+M063,Ing Wongchai,Operations,Active,2026/1
+M064,Jane Saengkaew,Member Relations,Active,2026/1
+M065,June Kittisak,Creative,Active,2026/1
+M066,Kao Pongsawat,Academic,Active,2026/1
+M067,Khim Thanaset,Secretariat,Active,2026/1
+M068,May Pattanakul,Finance,Active,2026/1
+M069,Mew Narin,Operations,Active,2026/1
+M070,Mint Charoen,Member Relations,Active,2026/1
+M071,Mook Sirikul,Creative,Active,2026/1
+M072,Nam Rattanakul,Academic,Active,2026/1
+M073,Nan Suwannarat,Secretariat,Active,2026/1
+M074,Nene Limsakul,Finance,Active,2026/1
+M075,New Boonmee,Operations,Active,2026/1
+M076,Nice Sutthipong,Member Relations,Active,2026/1
+M077,Ning Nopparat,Creative,Active,2026/1
+M078,Noon Wattanapong,Academic,Active,2026/1
+M079,Nut Chanthara,Secretariat,Active,2026/1
+M080,Pang Thammasiri,Finance,Active,2026/1
+M081,Pear Kanjanaporn,Operations,Active,2026/1
+M082,Pim Srisawat,Member Relations,Active,2026/1
+M083,Pin Wongchai,Creative,Active,2026/1
+M084,Ploy Saengkaew,Academic,Active,2026/1
+M085,Prae Kittisak,Secretariat,Active,2026/1
+M086,Prim Pongsawat,Finance,Active,2026/1
+M087,Pun Thanaset,Operations,Active,2026/1
+M088,Rain Pattanakul,Member Relations,Active,2026/1
+M089,Sai Narin,Creative,Active,2026/1
+M090,Smile Charoen,Academic,Active,2026/1
+M091,Som Sirikul,Secretariat,Active,2026/1
+M092,Tarn Rattanakul,Finance,Active,2026/1
+M093,Tea Suwannarat,Operations,Active,2026/1
+M094,Ton Limsakul,Member Relations,Active,2026/1
+M095,View Boonmee,Creative,Active,2026/1
+M096,Wan Sutthipong,Academic,Active,2026/1
+M097,Win Nopparat,Secretariat,Active,2026/1
+M098,Ying Wattanapong,Finance,Active,2026/1
+M099,Yok Chanthara,Operations,Active,2026/1
+M100,Zee Thammasiri,Member Relations,Active,2026/1
+M101,An Charoen,Creative,Active,2026/1
+M102,Beam Sirikul,Academic,Active,2026/1
+M103,Benz Rattanakul,Secretariat,Active,2026/1
+M104,Bua Suwannarat,Finance,Active,2026/1
+M105,Chan Limsakul,Operations,Active,2026/1
+M106,Cream Boonmee,Member Relations,Active,2026/1
+M107,Earth Sutthipong,Creative,Active,2026/1
+M108,Fern Nopparat,Academic,Active,2026/1
+M109,Film Wattanapong,Secretariat,Active,2026/1
+M110,Fah Chanthara,Finance,Active,2026/1
+M111,Gift Thammasiri,Operations,Active,2026/1
+M112,Ice Kanjanaporn,Member Relations,Active,2026/1
+M113,Ing Srisawat,Creative,Active,2026/1
+M114,Jane Wongchai,Academic,Active,2026/1
+M115,June Saengkaew,Secretariat,Active,2026/1
+M116,Kao Kittisak,Finance,Active,2026/1
+M117,Khim Pongsawat,Operations,Active,2026/1
+M118,May Thanaset,Member Relations,Active,2026/1
+M119,Mew Pattanakul,Creative,Active,2026/1
+M120,Mint Narin,Academic,Active,2026/1
+M121,Mook Charoen,Secretariat,Active,2026/1
+M122,Nam Sirikul,Finance,Active,2026/1
+M123,Nan Rattanakul,Operations,Active,2026/1
+M124,Nene Suwannarat,Member Relations,Active,2026/1
+M125,New Limsakul,Creative,Active,2026/1
+M126,Nice Boonmee,Academic,Active,2026/1
+M127,Ning Sutthipong,Secretariat,Active,2026/1
+M128,Noon Nopparat,Finance,Active,2026/1
+M129,Nut Wattanapong,Operations,Active,2026/1
+M130,Pang Chanthara,Member Relations,Active,2026/1
+M131,Pear Thammasiri,Creative,Active,2026/1
+M132,Pim Kanjanaporn,Academic,Active,2026/1
+M133,Pin Srisawat,Secretariat,Active,2026/1
+M134,Ploy Wongchai,Finance,Active,2026/1
+M135,Prae Saengkaew,Operations,Active,2026/1
+M136,Prim Kittisak,Member Relations,Active,2026/1
+M137,Pun Pongsawat,Creative,Active,2026/1
+M138,Rain Thanaset,Academic,Active,2026/1
+M139,Sai Pattanakul,Secretariat,Active,2026/1
+M140,Smile Narin,Finance,Active,2026/1
+M141,Som Charoen,Operations,Active,2026/1
+M142,Tarn Sirikul,Member Relations,Active,2026/1
+M143,Tea Rattanakul,Creative,Inactive,2026/1
+M144,Ton Suwannarat,Academic,Inactive,2026/1
+M145,View Limsakul,Secretariat,Inactive,2026/1
+M146,Wan Boonmee,Finance,Inactive,2026/1
+M147,Win Sutthipong,Operations,Inactive,2026/1
+M148,Ying Nopparat,Member Relations,Inactive,2026/1
+M149,Yok Wattanapong,Creative,Inactive,2026/1
+M150,Zee Chanthara,Academic,Inactive,2026/1

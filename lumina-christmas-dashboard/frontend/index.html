@@ -1,0 +1,593 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f6ef">
+
+  <title>Lumina Club — A little brighter together</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="/styles.css">
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"
+    defer>
+  </script>
+
+  <script type="module" src="/app.js"></script>
+</head>
+
+<body>
+
+<!-- ================= AUTH SCREEN ================= -->
+
+<div id="auth-screen" class="auth-screen">
+  <div class="auth-wrap">
+
+    <section class="auth-art">
+
+      <div class="tiny-top">
+        <span class="logo-badge">✳</span>
+        LUMINA
+        <span class="season-chip">WINTER EDITION 2026</span>
+      </div>
+
+      <div class="auth-illustration" aria-hidden="true">
+        <div class="star star-a">✳</div>
+        <div class="moon">☾</div>
+        <div class="star star-b">✦</div>
+        <div class="red-sphere"></div>
+
+        <div class="tree">
+          <div class="tree-layer tl1"></div>
+          <div class="tree-layer tl2"></div>
+          <div class="tree-layer tl3"></div>
+          <div class="tree-trunk"></div>
+          <div class="tree-light t1">✧</div>
+          <div class="tree-light t2">●</div>
+          <div class="tree-light t3">✦</div>
+          <div class="tree-light t4">●</div>
+        </div>
+
+        <div class="present present-a">✳</div>
+        <div class="present present-b">✳</div>
+      </div>
+
+      <div class="auth-art-copy">
+        <span class="eyebrow light">
+          A PLACE TO GROW TOGETHER
+        </span>
+
+        <h1>
+          Good things<br>
+          grow in <em>community.</em>
+        </h1>
+
+        <p>
+          Every event, every connection, every little moment —
+          all in one magical place.
+        </p>
+      </div>
+
+      <div class="art-footer">
+        <span>✦ MADE FOR THE PEOPLE WHO MAKE IT HAPPEN</span>
+        <span>EST. 2026</span>
+      </div>
+
+    </section>
+
+    <section class="auth-panel">
+
+      <div class="panel-head">
+        <div class="mini-logo">
+          ✳ <strong>lumina.</strong>
+        </div>
+        <span class="little-dot">✦</span>
+      </div>
+
+      <div class="auth-content">
+
+        <div class="peppermint">
+          ✳ &nbsp; your club, beautifully organized
+        </div>
+
+        <h2 id="auth-title">
+          Welcome back<span class="red-dot">.</span>
+        </h2>
+
+        <p id="auth-subtitle">
+          Your community dashboard is ready for you.
+        </p>
+
+        <div class="auth-tabs" role="tablist">
+          <button
+            id="login-tab"
+            class="auth-tab active"
+            type="button">
+            Log in
+          </button>
+
+          <button
+            id="signup-tab"
+            class="auth-tab"
+            type="button">
+            Sign up
+          </button>
+        </div>
+
+        <form id="auth-form">
+
+          <label for="email">Email address</label>
+
+          <input
+            id="email"
+            type="email"
+            autocomplete="email"
+            placeholder="you@lumina.club"
+            required
+          >
+
+          <label for="password">Password</label>
+
+          <input
+            id="password"
+            type="password"
+            autocomplete="current-password"
+            placeholder="At least 6 characters"
+            minlength="6"
+            required
+          >
+
+          <button
+            type="submit"
+            id="email-auth-btn"
+            class="btn-primary">
+            Log in <span>↗</span>
+          </button>
+
+        </form>
+
+        
+
+        <button id="demo-btn" class="btn-demo" hidden>
+          Explore demo dashboard →
+        </button>
+
+        <div
+          id="auth-error"
+          class="auth-error"
+          role="alert">
+        </div>
+
+      </div>
+
+      <div class="panel-foot">
+        © 2026 Lumina Club
+        <span>made with ♥ & a little holiday magic</span>
+      </div>
+
+    </section>
+  </div>
+</div>
+
+
+<!-- ================= DASHBOARD SCREEN ================= -->
+
+<div id="dashboard-screen" class="dashboard-screen" hidden>
+
+  <!-- SIDEBAR -->
+
+  <aside class="sidebar">
+
+    <div class="side-brand">
+      <div class="brand-mark">✳</div>
+
+      <div>
+        <strong>lumina.</strong>
+        <small>CLUB DASHBOARD</small>
+      </div>
+    </div>
+
+    <div class="side-label">YOUR SPACE</div>
+
+    <button class="nav-item selected" id="nav-overview">
+      <span class="nav-icon">▦</span>
+      Overview
+      <span class="nav-arrow">↗</span>
+    </button>
+
+    <div class="side-label term-label">
+      ACADEMIC HISTORY
+    </div>
+
+    <div id="term-list" class="term-list"></div>
+
+    <div class="sidebar-bottom">
+
+      <div class="side-holiday">
+        <div class="holly">✦ <span>❋</span></div>
+
+        <strong>
+          'Tis the season<br>
+          to make memories.
+        </strong>
+
+        <small>Keep your club glowing ✨</small>
+      </div>
+
+      <button id="logout-btn" class="signout">
+        <span>↪</span> Log out
+      </button>
+
+    </div>
+
+  </aside>
+
+
+  <!-- MAIN CONTENT -->
+
+  <div class="main-shell">
+
+    <!-- TOPBAR -->
+
+    <header class="topbar">
+
+      <div class="breadcrumb">
+        CLUB SPACE <span>›</span> <strong>OVERVIEW</strong>
+      </div>
+
+      <div class="top-actions">
+
+        <span class="live-pill" id="data-source">
+          ● SAMPLE DATA
+        </span>
+
+        <button
+          id="theme-btn"
+          class="icon-button"
+          aria-label="Toggle dark mode"
+          title="Toggle theme">
+          ☾
+        </button>
+
+        <div class="notification-wrap">
+
+          <button
+            id="bell-btn"
+            class="icon-button"
+            aria-label="Notifications"
+            aria-expanded="false">
+            🔔
+
+            <span id="notif-count" class="notif-count" hidden>
+              0
+            </span>
+          </button>
+
+          <div
+            class="popover"
+            id="notification-popover"
+            hidden>
+
+            <div class="popover-title">
+              Notifications
+
+              <button
+                id="close-notifications"
+                aria-label="Close">
+                ✕
+              </button>
+            </div>
+
+            <div id="notification-items"></div>
+
+          </div>
+        </div>
+
+        <!-- FIXED: Added user-avatar ID -->
+
+        <div class="user-chip">
+          <span id="user-avatar" class="user-avatar">L</span>
+          <span id="user-label">Club Member</span>
+        </div>
+
+      </div>
+    </header>
+
+
+    <main class="main-content">
+
+      <!-- HOLIDAY BANNER -->
+
+      <div class="announce">
+        <div class="announce-left">
+          ✦ &nbsp; A LITTLE JOY IN EVERY NUMBER &nbsp; ✦
+        </div>
+
+        <div>
+          HAPPY HOLIDAYS FROM LUMINA CLUB <span>❋</span>
+        </div>
+      </div>
+
+
+      <!-- WELCOME SECTION -->
+
+      <section class="welcome-row">
+
+        <div>
+          <div class="eyebrow">
+            ✧ CLUB INSIGHTS /
+            <span id="term-caption">SEMESTER 2026/1</span>
+          </div>
+
+          <h1>
+            Making memories,<br>
+            <em>one event at a time.</em>
+            <span class="heading-star">✳</span>
+          </h1>
+
+          <p>
+            Here's how our little community is doing this semester.
+          </p>
+        </div>
+
+        <div class="welcome-side">
+
+          <div class="year-sticker">
+            <span>✶</span>
+            <strong id="year-sticker">2026</strong>
+            <small>THE CLUB YEAR</small>
+          </div>
+
+          <button id="refresh-btn" class="refresh-btn">
+            ↻ &nbsp; Refresh data
+          </button>
+
+          </div> <!-- ปิด welcome-side -->
+          </section> <!-- ปิด welcome-row -->
+
+          <!-- STATS SECTION -->
+
+      <div class="section-heading">
+        <h2>At a glance <span>✷</span></h2>
+
+        <span id="semester-badge" class="semester-badge">
+          SEMESTER 2026/1
+        </span>
+      </div>
+
+      <section class="stats-grid">
+
+        <!-- MEMBERS CARD -->
+
+        <article class="stat-card">
+
+          <div class="stat-head">
+            <span>ACTIVE MEMBERS</span>
+            <span class="stat-icon">♧</span>
+          </div>
+
+          <div class="stat-value" id="stat-members">—</div>
+
+          <div class="stat-footer">
+            <span class="tiny-leaf">✦</span>
+            Our growing community
+          </div>
+
+          <div class="card-star">✻</div>
+
+        </article>
+
+
+        <!-- EVENTS CARD -->
+
+        <article class="stat-card">
+
+          <div class="stat-head">
+            <span>CLUB EVENTS</span>
+            <span class="stat-icon">▦</span>
+          </div>
+
+          <div class="stat-value" id="stat-events">—</div>
+
+          <div class="stat-footer">
+            <span class="tiny-leaf">✦</span>
+            Moments made together
+          </div>
+
+          <div class="card-star">✻</div>
+
+        </article>
+
+
+        <!-- BUDGET CARD -->
+
+        <article class="stat-card budget-card">
+
+          <div class="stat-head">
+            <span>TOTAL BUDGET USED</span>
+            <span class="stat-icon">◉</span>
+          </div>
+
+          <div class="stat-value" id="stat-budget">—</div>
+
+          <div class="stat-footer">
+            <span id="budget-percentage">—</span>
+            of allocated budget
+          </div>
+
+          <div class="card-star">✻</div>
+
+        </article>
+
+      </section>
+
+
+      <!-- NOTIFICATION ALERTS -->
+
+      <div id="alerts" class="alerts"></div>
+
+
+      <!-- CHARTS SECTION -->
+
+      <section class="charts-grid">
+
+        <!-- ATTENDANCE CHART -->
+
+        <article class="chart-card">
+
+          <div class="chart-head">
+
+            <div>
+              <div class="eyebrow">THE PEOPLE</div>
+
+              <h3>
+                Attendance per event <span>✦</span>
+              </h3>
+
+              <p>How many members joined each activity?</p>
+            </div>
+
+            <span class="chart-label">ATTENDANCE</span>
+
+          </div>
+
+          <div class="chart-canvas">
+            <canvas
+              id="attendance-chart"
+              role="img"
+              aria-label="Attendance per event bar chart">
+            </canvas>
+          </div>
+
+        </article>
+
+
+        <!-- BUDGET CHART -->
+
+        <article class="chart-card">
+
+          <div class="chart-head">
+
+            <div>
+              <div class="eyebrow">THE NUMBERS</div>
+
+              <h3>
+                Event budget breakdown <span>✦</span>
+              </h3>
+
+              <p>Planned vs. actual spending, by event.</p>
+            </div>
+
+            <span class="chart-label">BUDGET (THB)</span>
+
+          </div>
+
+          <div class="legend">
+            <span><i class="planned"></i> Planned</span>
+            <span><i class="actual"></i> Actual spent</span>
+          </div>
+
+          <div class="chart-canvas">
+            <canvas
+              id="budget-chart"
+              role="img"
+              aria-label="Budget per event bar chart">
+            </canvas>
+          </div>
+
+        </article>
+
+      </section>
+
+
+      <!-- BOTTOM SECTION -->
+
+      <section class="bottom-grid">
+
+        <!-- BUDGET HEALTH -->
+
+        <article class="budget-summary">
+
+          <div class="section-heading small">
+            <h2>Budget health <span>✧</span></h2>
+
+            <span id="budget-status" class="health-pill">
+              ON TRACK
+            </span>
+          </div>
+
+          <div class="budget-big">
+            <strong id="summary-spent">—</strong>
+
+            <span>
+              out of <b id="summary-planned">—</b> planned
+            </span>
+          </div>
+
+          <div class="progress-outer">
+            <div id="budget-progress" class="progress-inner"></div>
+          </div>
+
+          <div class="progress-labels">
+            <span>0%</span>
+            <span id="summary-percent">—</span>
+            <span>100%</span>
+          </div>
+
+        </article>
+
+
+        <!-- UPCOMING EVENTS -->
+
+        <article class="upcoming-card">
+
+          <div class="section-heading small">
+            <h2>What's next? <span>✧</span></h2>
+            <span class="mini-snow">❄</span>
+          </div>
+
+          <div id="upcoming-list" class="upcoming-list"></div>
+
+        </article>
+
+      </section>
+
+
+      <!-- FOOTER -->
+
+      <footer class="footer">
+
+        <span>
+          ✳ lumina. <span class="heart">♥</span>
+          people first, always.
+        </span>
+
+        <span>
+          BUILT WITH CARE · CHRISTMAS EDITION
+        </span>
+
+      </footer>
+
+    </main>
+
+  </div>
+
+</div>
+
+
+<!-- TOAST -->
+
+<div id="toast" class="toast" role="status" hidden></div>
+
+</body>
+</html>

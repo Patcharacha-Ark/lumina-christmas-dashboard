@@ -1,0 +1,31 @@
+﻿event_id,event_name,event_date,status,semester
+H101,Welcome Mixer,2025-08-18,Completed,2025/1
+H102,Creative Lab,2025-09-02,Completed,2025/1
+H103,Green Campus Day,2025-09-20,Completed,2025/1
+H104,Design Thinking Talk,2025-10-09,Completed,2025/1
+H105,Leadership Workshop,2025-10-22,Completed,2025/1
+H106,Open Mic Night,2025-11-05,Completed,2025/1
+H107,Tech For Good,2025-11-16,Completed,2025/1
+H108,Community Market,2025-11-28,Completed,2025/1
+H109,Volunteer Meetup,2025-12-07,Completed,2025/1
+H201,Welcome Mixer,2026-01-18,Completed,2025/2
+H202,Creative Lab,2026-02-02,Completed,2025/2
+H203,Green Campus Day,2026-02-18,Completed,2025/2
+H204,Design Thinking Talk,2026-03-03,Completed,2025/2
+H205,Leadership Workshop,2026-03-15,Completed,2025/2
+H206,Open Mic Night,2026-03-28,Completed,2025/2
+H207,Tech For Good,2026-04-02,Completed,2025/2
+H208,Community Market,2026-04-15,Completed,2025/2
+H209,Volunteer Meetup,2026-04-26,Completed,2025/2
+E001,Welcome & Orientation,2026-08-15,Completed,2026/1
+E002,Creative Design Workshop,2026-08-29,Completed,2026/1
+E003,Community Volunteer Day,2026-09-05,Completed,2026/1
+E004,Technology Talk: AI,2026-09-19,Completed,2026/1
+E005,Club Leadership Camp,2026-09-26,Completed,2026/1
+E006,Public Speaking Workshop,2026-10-03,Completed,2026/1
+E007,Coding for Beginners,2026-10-10,Completed,2026/1
+E008,Sustainability Day,2026-10-17,Completed,2026/1
+E009,Hackathon Weekend,2026-11-07,Completed,2026/1
+E010,AI Workshop,2026-11-15,Upcoming,2026/1
+E011,Portfolio Clinic,2026-11-24,Upcoming,2026/1
+E012,Year-End Club Showcase,2026-12-05,Upcoming,2026/1
